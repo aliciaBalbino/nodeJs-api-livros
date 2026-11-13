@@ -1,4 +1,5 @@
 *RESUMO*
+
 Neste repositório, construí uma aplicação web completa (CRUD) de gerenciamento de livros. Desenvolvi o backend utilizando Node.js e
 Express, com persistência de dados em um banco local SQLite (better-sqlite3). Para a interface, criei um frontend ágil e responsivo 
 com Tailwind CSS, consumindo os endpoints da minha API através de requisições AJAX com jQuery.
@@ -41,3 +42,19 @@ A API suporta os 4 verbos HTTP fundamentais para operações de banco de dados:
 1. Clone este repositório:
 ```bash
 git clone [https://github.com/aliciaBalbino/nodejs-api-livros.git](https://github.com/aliciaBalbino/nodejs-api-livros.git)
+
+Entre na pasta do projeto:
+
+Bash
+cd nodejs-api-livros
+Instale as dependências:
+
+Bash
+npm install
+Inicie o servidor:
+
+Bash
+node src/server.js
+O servidor estará a rodar em http://localhost:3000. A base de dados (biblioteca.sqlite) será gerada e populada automaticamente na primeira execução.
+
+Acesse o Frontend: Abra o ficheiro index.html diretamente no seu navegador para testar a interface integrada com a API.
